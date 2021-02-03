@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "车检",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "uni-popup": "/components/uni-popup/uni-popup",
+    "list": "/components/common/list",
+    "header-title": "/components/common/header-title",
+    "detail-dialog": "/components/common/detail-dialog"
+  }
+}

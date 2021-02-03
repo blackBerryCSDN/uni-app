@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "快修",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "uni-rate": "/components/uni-rate/uni-rate"
+  }
+}

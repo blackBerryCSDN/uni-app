@@ -1,0 +1,1 @@
+<view class="notice-detail-content"><view class="process"><view class="title">{{detailData.title}}</view><view class="desc">{{detailData.content}}</view><block wx:if="{{detailData.thumb}}"><view class="img-box"><image mode="aspectFill" src="{{detailData.thumb}}"></image></view></block></view></view>

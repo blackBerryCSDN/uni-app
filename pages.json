@@ -1,0 +1,283 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "普源车检",
+				"app-plus": {
+					"titleNView": {
+						// "searchInput": {
+						// 	"backgroundColor": "rgba(255, 255, 255, .8)",
+						// 	"borderRadius": "16px",
+						// 	"placeholder": "请输入关键字如：车辆检测",
+						// 	"placeholderColor": "#606266",
+						// 	"disabled": true
+						// },
+					}
+				}
+			}
+		} 
+		,{
+		    "path" : "pages/login/login",
+		   "style": {
+		   	"navigationBarTitleText": "",
+		   	"navigationStyle": "custom",
+		   	"app-plus": {
+		   		"titleNView": false,
+		   		"animationType": "slide-in-bottom"
+		   	}
+		   } 
+		}
+		,{
+            "path" : "pages/test/test",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "车检",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/news/news",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "快修",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/profile/profile",
+            "style": {
+			"navigationBarTitleText": "我的",
+			"navigationStyle": "custom",
+           	 // #ifdef MP
+           	 // "navigationStyle": "custom",
+           	 // #endif
+           	 "app-plus": {
+				 "bounce": "none",
+           		 "titleNView": {
+           			// "buttons": [
+           			// 	{
+           			// 		"fontSrc": "https://at.alicdn.com/t/font_2282493_l510c585jj.woff2",
+           			// 		"fontSize": "30",
+           			// 		"text": "\ue6b6",
+           			// 		"color": "#fff",
+           			// 		"background": "rgba(0,0,0,0)"
+           			// 	},
+           			// 	{
+           			// 		"fontSrc": "https://at.alicdn.com/t/font_2282493_4vgla9w1m4v.ttf",
+           			// 		"fontSize": "22",
+           			// 		"text": "\ue644",
+           			// 		"color": "#fff",
+           			// 		"redDot": true,
+           			// 		"background": "rgba(0,0,0,0)"
+           			// 	}
+           			// ]
+           		}
+           	}
+            }
+        }
+        ,{
+            "path" : "pages/history-detail/history-detail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "车检详细",
+                "enablePullDownRefresh": false
+            }
+            
+        },
+		{
+		    "path" : "pages/money/pay",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "支付订单",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		},
+		{
+		    "path" : "pages/money/paySuccess",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "支付成功",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		},
+		{
+		    "path" : "pages/set/set",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "设置",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		},
+		{
+		    "path" : "pages/news-details/news-details",
+		    "style" :
+			{
+				"navigationBarTitleText": "周边详情",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+		    "path" : "pages/notice/notice",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "消息",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		}
+        ,{
+            "path" : "pages/help/help",
+            "style" :                                                                           
+            {
+                "navigationBarTitleText": "使用帮助",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/violation/violation",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "违章违法"
+            }
+        }
+        ,{
+            "path" : "pages/help-detail/help-detail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/notice-detail/notice-detail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "消息详情",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/about/about",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "关于我们",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/plate/plate",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我的车辆",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/add-plate/add-plate",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "绑定车牌",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+		,{
+		    "path" : "pages/my-info/my-info",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "个人信息",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		}
+        ,{
+            "path" : "pages/update-info/update-info",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "修改名字",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/register/register",
+            "style": {
+            	"navigationBarTitleText": "",
+            	"navigationStyle": "custom",
+            	"app-plus": {
+            		"titleNView": false,
+            		"animationType": "slide-in-bottom"
+            	}
+            }    
+        }
+        ,{
+            "path" : "pages/set-password/set-password",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "密码设置",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#409eff",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#C0C4CC",
+		"selectedColor": "#409eff",
+		"backgroundColor": "#fff",
+		"list": [
+			{
+				"iconPath": "static/icon/tab-home.png",
+				"selectedIconPath": "./static/icon/tab-home-current.png",
+				"pagePath": "pages/index/index",
+				"text": "首页"
+			},
+			{
+				"iconPath": "static/icon/tab-test.png",
+				"selectedIconPath": "./static/icon/tab-test-current.png",
+				"pagePath": "pages/test/test",
+				"text": "车检"
+			},
+			{
+				"iconPath": "static/icon/tab-news.png",
+				"selectedIconPath": "./static/icon/tab-news-current.png",
+				"pagePath": "pages/news/news",
+				"text": "快修"
+			},
+			{
+				"iconPath": "static/icon/tab-my.png",
+				"selectedIconPath": "./static/icon/tab-my-current.png",
+				"pagePath": "pages/profile/profile",
+				"text": "我的"
+			}
+		]
+		
+	},
+	"condition" : { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [
+			{
+				"name": "", //模式名称
+				"path": "", //启动页面，必选
+				"query": "" //启动参数，在页面的onLoad函数里面得到
+			}
+		]
+	}
+}

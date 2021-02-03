@@ -1,0 +1,122 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 页面左右间距 */
+/* 文字尺寸 */
+/*文字颜色*/
+/* 边框颜色 */
+/* 图片加载中颜色 */
+/* 行为相关颜色 */
+.violation-content {
+  padding: 0 10rpx;
+  font-size: 28rpx;
+}
+.violation-content .header {
+  background-color: #409eff;
+  border-radius: 4px;
+  padding: 20px 0;
+  margin: 10rpx 0;
+  color: #fff;
+}
+.violation-content .header .header-top {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  margin-bottom: 10rpx;
+}
+.violation-content .header .header-top view {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  text-align: center;
+}
+.violation-content .header .header-top .header-top-title {
+  font-size: 38rpx;
+}
+.violation-content .header .header-top .iconfont {
+  font-size: 72rpx;
+}
+.violation-content .header .header-body {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.violation-content .header .header-body view {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  text-align: center;
+}
+.violation-content .list-box {
+  margin: 10rpx 0;
+}
+.violation-content .list-box .list-item .list-header {
+  background-color: #fff;
+  border-radius: 4px;
+  padding: 10rpx;
+  margin-bottom: 2px;
+}
+.violation-content .list-box .list-item .list-header .item {
+  margin: 10rpx;
+}
+.violation-content .list-box .list-item .list-header .item .iconfont {
+  color: #409eff;
+  font-size: 34rpx;
+  margin-right: 4px;
+}
+.violation-content .list-box .list-item .list-bottom {
+  background-color: #fff;
+  border-radius: 4px;
+  padding: 10rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  margin-bottom: 10px;
+}
+.violation-content .list-box .list-item .list-bottom view {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  text-align: center;
+  padding: 10rpx 0;
+  border-right: 1px solid #E4E7ED;
+}
+.violation-content .list-box .list-item .list-bottom view .fa {
+  background-color: #46c7cc;
+  color: #fff;
+  padding: 2px 4px;
+  border-radius: 2px;
+  margin-right: 4px;
+}
+.violation-content .list-box .list-item .list-bottom view:last-child {
+  border-right: none;
+  background-color: #409eff;
+  color: #fff;
+}
+

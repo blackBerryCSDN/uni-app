@@ -1,0 +1,66 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/login/login",
+    "pages/test/test",
+    "pages/news/news",
+    "pages/profile/profile",
+    "pages/history-detail/history-detail",
+    "pages/money/pay",
+    "pages/money/paySuccess",
+    "pages/set/set",
+    "pages/news-details/news-details",
+    "pages/notice/notice",
+    "pages/help/help",
+    "pages/violation/violation",
+    "pages/help-detail/help-detail",
+    "pages/notice-detail/notice-detail",
+    "pages/about/about",
+    "pages/plate/plate",
+    "pages/add-plate/add-plate",
+    "pages/my-info/my-info",
+    "pages/update-info/update-info",
+    "pages/register/register",
+    "pages/set-password/set-password"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#409eff",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#C0C4CC",
+    "selectedColor": "#409eff",
+    "backgroundColor": "#fff",
+    "list": [
+      {
+        "iconPath": "static/icon/tab-home.png",
+        "selectedIconPath": "./static/icon/tab-home-current.png",
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "iconPath": "static/icon/tab-test.png",
+        "selectedIconPath": "./static/icon/tab-test-current.png",
+        "pagePath": "pages/test/test",
+        "text": "车检"
+      },
+      {
+        "iconPath": "static/icon/tab-news.png",
+        "selectedIconPath": "./static/icon/tab-news-current.png",
+        "pagePath": "pages/news/news",
+        "text": "快修"
+      },
+      {
+        "iconPath": "static/icon/tab-my.png",
+        "selectedIconPath": "./static/icon/tab-my-current.png",
+        "pagePath": "pages/profile/profile",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap73.json"
+}

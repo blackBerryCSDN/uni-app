@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "车检详细",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "list": "/components/common/list",
+    "header-title": "/components/common/header-title"
+  }
+}

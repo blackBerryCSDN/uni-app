@@ -1,0 +1,1 @@
+<view class="help-detail-content"><view class="process"><view class="title">{{helpList.title}}</view><view class="desc"><rich-text nodes="{{helpList.content}}"></rich-text></view></view></view>

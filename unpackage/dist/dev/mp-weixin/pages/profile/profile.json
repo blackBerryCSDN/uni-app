@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "我的",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "uni-popup": "/components/uni-popup/uni-popup",
+    "list-cell": "/components/common/mix-list-cell",
+    "detail-dialog": "/components/common/detail-dialog"
+  }
+}
